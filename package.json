@@ -7,9 +7,24 @@
   "license": "MIT",
   "packageManager": "yarn@3.2.4",
   "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "babel-jest": "^29.2.2",
     "jest": "^29.2.2"
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "roots": [
+      "<rootDir>"
+    ],
+    "moduleDirectories": [
+      "<rootdir>/js"
+    ]
+  },
+  "type": "module"
 }
