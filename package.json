@@ -1,0 +1,15 @@
+{
+  "name": "qa-bootcamp-hometask",
+  "version": "1.0.0",
+  "description": "QA bootcamp hometask project",
+  "main": "index.js",
+  "author": "dpszc",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.4",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
